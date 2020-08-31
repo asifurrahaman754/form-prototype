@@ -1,4 +1,8 @@
-    
+		
+		var screenWidth = screen.width;
+		if(screenWidth < 1024){
+			alert("use desktop to see the effect");
+		}
         let left = document.querySelector('.left');
         let content = document.querySelector('.leftContent');
         let protos = document.querySelectorAll('.proto');
