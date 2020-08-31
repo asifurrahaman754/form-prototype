@@ -101,6 +101,12 @@ body {
   width: 20rem;
 }
 
+@media only screen and (max-width: 975px) {
+  
+	.right .attention .arrow {
+		width: 17rem;
+	}
+}
 @media only screen and (max-width: 850px) {
   .left {
     width: 100% !important;
